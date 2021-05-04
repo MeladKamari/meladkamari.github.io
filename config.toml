@@ -1,0 +1,35 @@
+baseURL = "/"
+languageCode = "fa-IR"
+title = "MeladHamedani | میلاد همدانی"
+theme = "hyde-hyde"
+disqusShortname = "Melad Hamedani"
+[params]
+    authorimage  = "/img/MeladHamedani.jpeg"
+    layoutReverse = false
+    title = "میلاد همدانی"
+    description = "معمار نرم افزار"
+    dateformat = "01/02/2006"
+    highlightjs = true
+    highlightjsstyle = "atom-one-dark"
+##Social Account
+[params.social]
+	twitter = "MeladHamedani"
+	github = "MeladHamedani"
+    email = "meladhamedani@gmail.com"
+    linkedin = "melad-hamedani-70a65b120/"
+    medium = "meladhamedani"
+    telegram = "meladhamedani"
+##Main menu
+[[menu.main]]
+    name = "خانه"
+    weight = 100
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "مقالات"
+    weight = 200
+    identifier = "posts"
+    url = "/"
+
+
+   
