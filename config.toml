@@ -6,8 +6,8 @@ disqusShortname = "Melad Hamedani"
 [params]
     authorimage  = "/img/MeladHamedani.jpeg"
     layoutReverse = false
-    title = "میلاد همدانی"
-    description = "معمار نرم افزار"
+    title = "Melad Hamedani"
+    description = "Software Architecture"
     dateformat = "01/02/2006"
     highlightjs = true
     highlightjsstyle = "atom-one-dark"
@@ -21,12 +21,12 @@ disqusShortname = "Melad Hamedani"
     telegram = "meladhamedani"
 ##Main menu
 [[menu.main]]
-    name = "خانه"
+    name = "Home"
     weight = 100
     identifier = "home"
     url = "/"
 [[menu.main]]
-    name = "مقالات"
+    name = "Articles"
     weight = 200
     identifier = "posts"
     url = "/"
