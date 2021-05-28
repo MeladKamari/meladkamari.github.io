@@ -3,7 +3,14 @@ languageCode = "fa-IR"
 title = "MeladHamedani | میلاد همدانی"
 theme = "hyde-hyde"
 disqusShortname = "Melad Hamedani"
+enableRobotsTXT = true
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 [params]
+  themeColor="theme-base-melad"
+    about="Moien Tajik is a software developer with more than 5 years of experience in developing applications."
     authorimage  = "/img/MeladHamedani.jpeg"
     layoutReverse = false
     title = "Melad Hamedani"
@@ -11,6 +18,9 @@ disqusShortname = "Melad Hamedani"
     dateformat = "01/02/2006"
     highlightjs = true
     highlightjsstyle = "atom-one-dark"
+     rtl=true
+     copyright=true
+     showBuiltWith=true
 ##Social Account
 [params.social]
 	twitter = "MeladHamedani"
@@ -25,11 +35,7 @@ disqusShortname = "Melad Hamedani"
     weight = 100
     identifier = "home"
     url = "/"
-[[menu.main]]
-    name = "Articles"
-    weight = 200
-    identifier = "posts"
-    url = "/"
+
 
 
    

@@ -1,6 +1,7 @@
+
 {{ with .Site.Params.copyright }}
 <div class="copyright">
-  &copy; {{ with $.Site.Params.since }}{{ if lt . now.Year }}{{ . | safeHTML }} - {{ end }}{{ end }}{{ now.Format "2006"}} {{ . | safeHTML }}
+  &copy; {{ with $.Site.Params.since }}{{ if lt . now.Year }}{{ . | safeHTML }} - {{ end }}{{ end }}{{ now.Format "2006"}} 
   {{ with $.Site.Params.license }}
     <a href="{{$.Site.Params.licenseURL | safeHTML}}">{{ . | safeHTML }}</a>
   {{end}}
