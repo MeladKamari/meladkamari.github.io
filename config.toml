@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "fa-IR"
-title = "MeladHamedani | میلاد همدانی"
+title = "Melad Hamedani | میلاد همدانی"
 theme = "hyde-hyde"
 disqusShortname = "Melad Hamedani"
 enableRobotsTXT = true
