@@ -9,12 +9,11 @@ enableRobotsTXT = true
   priority = 0.5
   filename = "sitemap.xml"
 [params]
-  themeColor="theme-base-melad"
-    about="Moien Tajik is a software developer with more than 5 years of experience in developing applications."
+    themeColor="theme-base-melad"
     authorimage  = "/img/MeladHamedani.jpeg"
     layoutReverse = false
     title = "Melad Hamedani"
-    description = "Software Architecture"
+    description = "Software Architect"
     dateformat = "01/02/2006"
     highlightjs = true
     highlightjsstyle = "atom-one-dark"
