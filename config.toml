@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "fa-IR"
 title = "Melad Kamari | میلاد کمری"
 theme = "hyde-hyde"
-disqusShortname = "Melad Hamedani"
+disqusShortname = "Melad Kamari"
 enableRobotsTXT = true
 [sitemap]
   changefreq = "weekly"
@@ -12,7 +12,7 @@ enableRobotsTXT = true
     themeColor="theme-base-melad"
     authorimage  = "/img/MeladKamari.jpeg"
     layoutReverse = false
-    title = "Melad Hamedani"
+    title = "Melad Kamari"
     description = "Software Architect"
     dateformat = "01/02/2006"
     highlightjs = true
@@ -25,7 +25,7 @@ enableRobotsTXT = true
 	twitter = "MeladKamari"
 	github = "MeladKamari"
     email = "meladhamedani@gmail.com"
-    linkedin = "melad-hamedani-70a65b120/"
+    linkedin = "melad-kamari-70a65b120/"
     medium = "meladkamari"
     telegram = "meladkamari"
 ##Main menu
