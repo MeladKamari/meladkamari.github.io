@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "fa-IR"
-title = "Melad Hamedani | میلاد همدانی"
+title = "Melad Kamari | میلاد کمری"
 theme = "hyde-hyde"
 disqusShortname = "Melad Hamedani"
 enableRobotsTXT = true
@@ -10,7 +10,7 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 [params]
     themeColor="theme-base-melad"
-    authorimage  = "/img/MeladHamedani.jpeg"
+    authorimage  = "/img/MeladKamari.jpeg"
     layoutReverse = false
     title = "Melad Hamedani"
     description = "Software Architect"
@@ -22,12 +22,12 @@ enableRobotsTXT = true
      showBuiltWith=true
 ##Social Account
 [params.social]
-	twitter = "MeladHamedani"
-	github = "MeladHamedani"
+	twitter = "MeladKamari"
+	github = "MeladKamari"
     email = "meladhamedani@gmail.com"
     linkedin = "melad-hamedani-70a65b120/"
-    medium = "meladhamedani"
-    telegram = "meladhamedani"
+    medium = "meladkamari"
+    telegram = "meladkamari"
 ##Main menu
 [[menu.main]]
     name = "Home"
