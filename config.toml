@@ -13,13 +13,14 @@ enableRobotsTXT = true
     authorimage  = "/img/MeladKamari.jpeg"
     layoutReverse = false
     title = "Melad Kamari"
-    description = "Software Architect"
+    description = "Melad Kamari | میلاد کمری"
     dateformat = "01/02/2006"
     highlightjs = true
     highlightjsstyle = "atom-one-dark"
      rtl=true
      copyright=true
      showBuiltWith=true
+     backGroundColor="#5027D5"
 ##Social Account
 [params.social]
 	twitter = "MeladKamari"
