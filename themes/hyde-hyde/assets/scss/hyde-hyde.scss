@@ -17,4 +17,11 @@
 @import 'hyde-hyde/responsive';
 @import 'hyde-hyde/misc';
 @import 'hyde-hyde/theme';
-@font-face{font-family:'Vazir';src:url("/font/Vazir-Medium-FD-WOL.woff.eot");src:url("/font/Vazir-Medium-FD-WOL.woff.eot?#iefix") format("embedded-opentype"),url("/font/Vazir-Medium-FD-WOL.woff.woff2") format("woff2"),url("/font/Vazir-Medium-FD-WOL.woff.woff") format("woff")}*{font-family:"Vazir" !important}
+@font-face{
+    font-family:'Vazir';
+    src:url("/font/Vazir-Medium-FD-WOL.eot");
+    src:url("/font/Vazir-Medium-FD-WOL.eot?#iefix") format("embedded-opentype"),
+    url("/font/Vazir-Medium-FD-WOL.woff2") format("woff2"),url("/font/Vazir-Medium-FD-WOL.woff") 
+    format("woff")}*{
+        font-family: 'Vazir'!important;
+      }
