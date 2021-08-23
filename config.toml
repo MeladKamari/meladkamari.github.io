@@ -21,6 +21,7 @@ enableRobotsTXT = true
      copyright=true
      showBuiltWith=true
      backGroundColor="#5027D5"
+     workTitle="Software Architect"
 ##Social Account
 [params.social]
 	twitter = "MeladKamari"

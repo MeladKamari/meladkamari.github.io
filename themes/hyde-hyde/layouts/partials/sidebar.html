@@ -18,7 +18,7 @@
         {{ $strippedSlash := ($.Site.Params.authorimage | replaceRE "^(/)+(.*)" "$2") }}
         {{ $authorImage := (printf "%s%s" $.Site.BaseURL $strippedSlash) }}
         <div class="author-image">
-          <img src="{{$authorImage}}" alt="Author Image" class="img--circle element--center">
+          <img src="{{$authorImage}}" alt="Author Image" class="img--circle img--headshot element--center">
         </div>
         {{ end }}
       {{ end }}
@@ -31,7 +31,7 @@
         {{ with .Site.Params.title }} {{.}} {{end}}
       </span>
       <span class="site__description">
-        {{ with .Site.Params.description }} {{.}} {{end}}
+        {{ with .Site.Params.workTitle }} {{.}} {{end}}
       </span>
     </div>
     <div class="collapsible-menu">
