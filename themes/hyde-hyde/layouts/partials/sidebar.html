@@ -27,21 +27,15 @@
           <img src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
         </div>
       {{ end }}
-      <span class="site__title">
+      <p class="site__title">
         {{ with .Site.Params.title }} {{.}} {{end}}
-      </span>
+      </p>
       <span class="site__description">
         {{ with .Site.Params.workTitle }} {{.}} {{end}}
       </span>
     </div>
-    <div class="collapsible-menu">
-      <input type="checkbox" id="menuToggle">
-      <label for="menuToggle">{{ .Site.Title }}</label>
-      <div class="menu-content">
-        {{ partial "sidebar/menu.html" . }}
-        {{ partial "sidebar/social.html" . }}
-      </div>
-    </div>
+    {{ partial "sidebar/menu.html" . }}
+    {{ partial "sidebar/social.html" . }}
     {{ partial "sidebar/copyright.html" . }}
   </div>
 </div>
